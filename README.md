@@ -1,5 +1,7 @@
 # X-Brain Redux Form Material UI #
 
+[![Build Status](https://travis-ci.org/xbrain-dev/xbrain-redux-form-material-ui.svg?branch=master)](https://travis-ci.org/xbrain-dev/xbrain-redux-form-material-ui)
+
 [`xbrain-redux-form-material-ui`](https://github.com/xbrain-dev/xbrain-redux-form-material-ui) is a set of
 wrappers to facilitate the use of
 [`material-ui v1`](https://github.com/callemall/material-ui) components with
