@@ -1,17 +1,11 @@
 # X-Brain Redux Form Material UI
 
 [![Build Status](https://travis-ci.org/xbrain-dev/xbrain-redux-form-material-ui.svg?branch=master)](https://travis-ci.org/xbrain-dev/xbrain-redux-form-material-ui)
-
 [![gzip size](http://img.badgesize.io/https://unpkg.com/xbrain-redux-form-material-ui/dist/xbrain-redux-form-material-ui.min.js?compression=gzip)](https://unpkg.com/xbrain-redux-form-material-ui/dist/xbrain-redux-form-material-ui.min.js)
-
 [![dependencies Status](https://david-dm.org/xbrain-dev/xbrain-redux-form-material-ui/status.svg)](https://david-dm.org/xbrain-dev/xbrain-redux-form-material-ui)
-
 [![devDependencies Status](https://david-dm.org/xbrain-dev/xbrain-redux-form-material-ui/dev-status.svg)](https://david-dm.org/xbrain-dev/xbrain-redux-form-material-ui?type=dev)
-
 [![peerDependencies Status](https://david-dm.org/xbrain-dev/xbrain-redux-form-material-ui/peer-status.svg)](https://david-dm.org/xbrain-dev/xbrain-redux-form-material-ui?type=peer)
-
 [![npm](https://img.shields.io/npm/v/xbrain-redux-form-material-ui.svg)](https://www.npmjs.com/package/xbrain-redux-form-material-ui)
-
 [![license](https://img.shields.io/github/license/xbrain-dev/xbrain-redux-form-material-ui.svg)](https://github.com/xbrain-dev/xbrain-redux-form-material-ui)
 
 [`xbrain-redux-form-material-ui`](https://github.com/xbrain-dev/xbrain-redux-form-material-ui)
