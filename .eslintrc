@@ -1,14 +1,15 @@
 {
   "extends": "airbnb",
+  "env": {
+    "jest": true
+  },
   "globals": {
     "window": true,
     "document": true
   },
-  "plugins": [
-    "react"
-  ],
+  "plugins": ["react"],
   "settings": {
-    "import/core-modules": [ "prop-types" ]
+    "import/core-modules": ["prop-types"]
   },
   "rules": {
     "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],

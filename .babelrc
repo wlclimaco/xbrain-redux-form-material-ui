@@ -1,7 +1,14 @@
 {
+  "env": {
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    }
+  },
   "presets": [
     "react",
-      ["env", {
+    [
+      "env",
+      {
         "modules": false,
         "targets": {
           "browsers": ["ie >= 9"]
@@ -10,7 +17,5 @@
       }
     ]
   ],
-  "plugins": [
-    "transform-object-rest-spread"
-  ]
+  "plugins": ["transform-object-rest-spread"]
 }

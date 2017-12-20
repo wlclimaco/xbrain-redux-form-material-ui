@@ -34,7 +34,6 @@ SelectWithReduxForm.propTypes = {
   input: PropTypes.object.isRequired,
   meta: PropTypes.object.isRequired,
   label: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
 };
 
 export default SelectWithReduxForm;
