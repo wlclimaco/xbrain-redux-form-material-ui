@@ -4,11 +4,10 @@ import { FormControl, InputLabel, Select, FormHelperText } from 'material-ui';
 
 const SelectWithReduxForm = ({
   input: {
-    value, onChange, onBlur, ...inputProps
+    value, onChange, onBlur, name, ...inputProps
   },
   meta: { touched, error },
   label,
-  name,
   ...rest
 }) => {
   const hasError = Boolean(touched && error);
