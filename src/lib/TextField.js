@@ -1,17 +1,18 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import { TextField, FormHelperText } from 'material-ui';
 
-const TextFieldWithReduxForm = ({ input, meta: { touched, error }, ...props }) => (
-  <div>
-    <TextField {...input} {...props} />
-    {touched && error && <FormHelperText>{error}</FormHelperText>}
-  </div>
-);
-
-TextFieldWithReduxForm.propTypes = {
-  input: PropTypes.object,
-  meta: PropTypes.object,
+const TextFieldWithReduxForm = ({ input, meta: { touched, error }, ...props }) => {
+  const hasError = Boolean(touched && error);
+  return (
+    <Fragment>
+      <TextField error={hasError} {...input} {...props} />
+      {hasError && <FormHelperText>{error}</FormHelperText>}
+    </Fragment>
+  );
 };
 
-export default TextFieldWithReduxForm;
+TextFieldWithReduxForm.propTypes = {
+  input: PropTypes.object.isRequired,
+  meta: PropTypes.object.isRequired,
+};

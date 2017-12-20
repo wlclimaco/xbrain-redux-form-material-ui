@@ -30,6 +30,7 @@ Using [npm](https://www.npmjs.org/):
 ## Available Components
 
 * [TextField](https://material-ui-next.com/demos/text-fields/)
+* [Select](https://material-ui-next.com/demos/selects/)
 
 ## Usage
 
@@ -39,13 +40,21 @@ the `component` prop of `Field`.
 
 ```js
 import { reduxForm, Field } from 'redux-form';
-import { TextField } from 'xbrain-redux-form-material-ui';
+import { TextField, Select } from 'xbrain-redux-form-material-ui';
 
 class MyForm extends Component {
   render() {
     return (
       <form>
-        <Field name="username" component={TextField} placeholder="Username" />
+        <FormControl error>
+          <Field name="name" label="Name" component={TextField} />
+        </FormControl>
+        <FormControl>
+          <Field name="gender" component={Select} label="Gender">
+            <MenuItem value="1">Male</MenuItem>
+            <MenuItem value="0">Female</MenuItem>
+          </Field>
+        </FormControl>
       </form>
     );
   }

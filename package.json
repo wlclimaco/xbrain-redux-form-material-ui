@@ -1,6 +1,6 @@
 {
   "name": "xbrain-redux-form-material-ui",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "An adapter between Redux Form and Material UI v1 components",
   "main": "dist/xbrain-redux-form-material-ui.min.js",
   "directories": {
@@ -15,11 +15,7 @@
     "type": "git",
     "url": "https://github.com/xbrain-dev/xbrain-redux-form-material-ui"
   },
-  "keywords": [
-    "xbrain",
-    "xbrain redux form ",
-    "xbrain redux form material ui"
-  ],
+  "keywords": ["xbrain", "xbrain redux form ", "xbrain redux form material ui"],
   "author": "Diego Rodrigues Vieira",
   "license": "MIT",
   "dependencies": {
