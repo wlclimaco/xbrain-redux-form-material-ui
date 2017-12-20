@@ -16,3 +16,5 @@ TextFieldWithReduxForm.propTypes = {
   input: PropTypes.object.isRequired,
   meta: PropTypes.object.isRequired,
 };
+
+export default TextFieldWithReduxForm;
