@@ -40,6 +40,7 @@ the `component` prop of `Field`.
 
 ```js
 import { reduxForm, Field } from 'redux-form';
+import { MenuItem } from 'material-ui';
 import { TextField, Select } from 'xbrain-redux-form-material-ui';
 
 class MyForm extends Component {
