@@ -20,7 +20,7 @@ const SelectWithReduxForm = ({
         {...inputProps}
         {...rest}
         onChange={(event) => {
-          onChange(event.target.value);
+          onChange(event, event.target.value);
         }}
         onBlur={() => onBlur(value)}
         name={name}
