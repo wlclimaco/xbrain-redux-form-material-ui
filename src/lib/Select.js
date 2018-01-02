@@ -4,26 +4,33 @@ import { FormControl, InputLabel, Select, FormHelperText } from 'material-ui';
 
 const SelectWithReduxForm = ({
   input: {
-    value, onChange, onBlur, name, ...inputProps
+    value, onChange, onBlur, name, multiple, ...inputProps
   },
   meta: { touched, error },
   label,
   ...rest
 }) => {
   const hasError = Boolean(touched && error);
+
+  let newValue = value;
+  if (multiple) {
+    newValue = Array.isArray(value) ? value : [];
+  }
+
   return (
     <FormControl error={hasError}>
       <InputLabel htmlFor={name}>{label}</InputLabel>
       <Select
+        name={name}
+        multiple={multiple}
         error={hasError}
-        value={value}
+        value={newValue}
         {...inputProps}
         {...rest}
         onChange={(event) => {
           onChange(event, event.target.value);
         }}
         onBlur={() => onBlur(value)}
-        name={name}
       />
       {hasError && <FormHelperText error>{error}</FormHelperText>}
     </FormControl>
