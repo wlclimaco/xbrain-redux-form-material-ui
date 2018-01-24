@@ -10,7 +10,7 @@
     "test": "jest --notify --verbose",
     "build": "webpack",
     "lint": "eslint src",
-    "precommit": "npm lint"
+    "precommit": "eslint src"
   },
   "repository": {
     "type": "git",
