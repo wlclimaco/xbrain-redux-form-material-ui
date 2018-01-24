@@ -16,7 +16,11 @@
     "type": "git",
     "url": "https://github.com/xbrain-dev/xbrain-redux-form-material-ui"
   },
-  "keywords": ["xbrain", "xbrain redux form ", "xbrain redux form material ui"],
+  "keywords": [
+    "xbrain",
+    "xbrain redux form ",
+    "xbrain redux form material ui"
+  ],
   "author": "Diego Rodrigues Vieira",
   "license": "MIT",
   "dependencies": {
@@ -24,7 +28,7 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "xbrain-react-components": "^1.0.15"
+    "xbrain-react-components": "^1.0.17"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
