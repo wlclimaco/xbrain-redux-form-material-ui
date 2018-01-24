@@ -4,7 +4,7 @@ import { FormHelperText } from 'material-ui';
 import { XTextField } from 'xbrain-react-components';
 
 const TextFieldWithReduxForm = ({
-  input, meta: { touched, error }, classes, ...props
+  input, meta: { touched, error }, ...props
 }) => {
   const hasError = Boolean(touched && error);
   return (
@@ -18,7 +18,6 @@ const TextFieldWithReduxForm = ({
 TextFieldWithReduxForm.propTypes = {
   input: PropTypes.object.isRequired,
   meta: PropTypes.object.isRequired,
-  classes: PropTypes.object.isRequired,
 };
 
 export default TextFieldWithReduxForm;
