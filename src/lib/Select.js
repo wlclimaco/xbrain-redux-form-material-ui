@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { FormControl, InputLabel, Select, FormHelperText } from 'material-ui';
+import { FormControl, FormHelperText } from 'material-ui';
+import { XSelect } from 'xbrain-react-components';
 
 const SelectWithReduxForm = ({
   input: {
@@ -20,8 +21,8 @@ const SelectWithReduxForm = ({
 
   return (
     <FormControl error={hasError}>
-      <InputLabel htmlFor={name}>{label}</InputLabel>
-      <Select
+      <XSelect
+        label={label}
         name={name}
         multiple={multiple}
         error={hasError}
