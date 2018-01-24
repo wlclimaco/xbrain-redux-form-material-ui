@@ -12,6 +12,7 @@ const config = {
   externals: {
     'material-ui': 'material-ui',
     'prop-types': 'prop-types',
+    'xbrain-react-components': 'xbrain-react-components',
     react: 'react',
   },
   module: {
