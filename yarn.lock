@@ -4736,9 +4736,9 @@ ws@^4.0.0:
     safe-buffer "~5.1.0"
     ultron "~1.1.0"
 
-xbrain-react-components@^1.0.27:
-  version "1.0.27"
-  resolved "https://registry.yarnpkg.com/xbrain-react-components/-/xbrain-react-components-1.0.27.tgz#197f2020c3f872b8e2837d0373d559e032e80ee5"
+xbrain-react-components@^1.0.28:
+  version "1.0.28"
+  resolved "https://registry.yarnpkg.com/xbrain-react-components/-/xbrain-react-components-1.0.28.tgz#9ebc1f775538048e791cc0a004536f56eebedf62"
   dependencies:
     material-ui "^1.0.0-beta.30"
     prop-types "^15.6.0"
