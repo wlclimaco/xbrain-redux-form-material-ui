@@ -18,13 +18,13 @@ is a set of wrappers to facilitate the use of
 Using [yarn](https://yarnpkg.com/):
 
 ```bash
-  yarn add xbrain-redux-form-material-ui
+  yarn add xbrain-redux-form-material-ui xbrain-react-components
 ```
 
 Using [npm](https://www.npmjs.org/):
 
 ```bash
-  npm install --save xbrain-redux-form-material-ui
+  npm install --save xbrain-redux-form-material-ui xbrain-react-components
 ```
 
 ## Available Components
