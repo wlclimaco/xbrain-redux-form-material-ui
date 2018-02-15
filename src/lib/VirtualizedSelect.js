@@ -55,3 +55,5 @@ ReactSelectWithReduxForm.propTypes = {
   multiple: PropTypes.bool.isRequired,
   simpleValue: PropTypes.bool,
 };
+
+export default ReactSelectWithReduxForm;
