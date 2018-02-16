@@ -37,6 +37,7 @@ const ReactSelectWithReduxForm = ({
         onBlur={() => onBlur(newValue)}
         creatable={false}
         error={hasError}
+        simpleValue={simpleValue}
         {...inputProps}
         {...props}
       />
