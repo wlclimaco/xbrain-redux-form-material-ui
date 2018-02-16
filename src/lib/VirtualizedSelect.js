@@ -46,13 +46,14 @@ const ReactSelectWithReduxForm = ({
 };
 
 ReactSelectWithReduxForm.defaultProps = {
+  multiple: false,
   simpleValue: true,
 };
 
 ReactSelectWithReduxForm.propTypes = {
   input: PropTypes.object.isRequired,
   meta: PropTypes.object.isRequired,
-  multiple: PropTypes.bool.isRequired,
+  multiple: PropTypes.bool,
   simpleValue: PropTypes.bool,
 };
 
