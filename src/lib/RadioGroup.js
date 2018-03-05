@@ -1,6 +1,8 @@
-import React, { Fragment } from 'react';
-import PropTypes from 'prop-types';
 import { RadioGroup, FormHelperText } from 'material-ui';
+import PropTypes from 'prop-types';
+import React, { Fragment } from 'react';
+
+import toString from '../utils/toString';
 
 const RadioGroupWithReduxForm = ({
   input: { onChange, value, ...inputProps },
@@ -11,7 +13,7 @@ const RadioGroupWithReduxForm = ({
     <RadioGroup
       {...inputProps}
       {...props}
-      value={value}
+      value={toString(value)}
       onChange={(event, isInputChecked) => {
         onChange(event, isInputChecked);
       }}
