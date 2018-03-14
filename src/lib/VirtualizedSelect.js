@@ -23,6 +23,8 @@ const ReactSelectWithReduxForm = ({
         }
         return item;
       });
+    } else if (value === '') {
+      newValue = [];
     }
   }
 
