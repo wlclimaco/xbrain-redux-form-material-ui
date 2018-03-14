@@ -15,16 +15,18 @@ const ReactSelectWithReduxForm = ({
   let newValue = value;
 
   if (multiple && simpleValue) {
-    if (value && typeof value === 'string') {
-      newValue = value.split(',');
-      newValue = newValue.map((item) => {
-        if (!isNaN(item)) {
-          return parseInt(item, 10);
-        }
-        return item;
-      });
-    } else if (value === '') {
-      newValue = [];
+    if (typeof value === 'string') {
+      if (value) {
+        newValue = value.split(',');
+        newValue = newValue.map((item) => {
+          if (!isNaN(item)) {
+            return parseInt(item, 10);
+          }
+          return item;
+        });
+      } else {
+        newValue = [];
+      }
     }
   }
 
