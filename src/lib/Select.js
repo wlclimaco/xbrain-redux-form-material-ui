@@ -34,7 +34,7 @@ const SelectWithReduxForm = ({
         }}
         onBlur={() => onBlur(value)}
       />
-      {hasError && <FormHelperText error>{error}</FormHelperText>}
+      {hasError && <FormHelperText className="x-error" error>{error}</FormHelperText>}
     </FormControl>
   );
 };

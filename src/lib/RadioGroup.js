@@ -18,7 +18,7 @@ const RadioGroupWithReduxForm = ({
         onChange(event, isInputChecked);
       }}
     />
-    {touched && error && <FormHelperText error>{error}</FormHelperText>}
+    {touched && error && <FormHelperText className="x-error" error>{error}</FormHelperText>}
   </Fragment>
 );
 

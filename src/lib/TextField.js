@@ -10,7 +10,7 @@ const TextFieldWithReduxForm = ({
   return (
     <Fragment>
       <XTextField error={hasError} {...input} {...props} />
-      {hasError && <FormHelperText>{error}</FormHelperText>}
+      {hasError && <FormHelperText className="x-error" error>{error}</FormHelperText>}
     </Fragment>
   );
 };
