@@ -20,7 +20,7 @@ const DropZoneWithReduxForm = ({
         {...inputProps}
         {...props}
       />
-      {hasError && <FormHelperText error>{error}</FormHelperText>}
+      {hasError && <FormHelperText className="x-error" error>{error}</FormHelperText>}
     </Fragment>
   );
 };
