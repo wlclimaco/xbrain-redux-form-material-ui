@@ -5,4 +5,6 @@ import Select from './lib/Select';
 import TextField from './lib/TextField';
 import VirtualizedSelect from './lib/VirtualizedSelect';
 
-export { Checkbox, DropZone, RadioGroup, Select, TextField, VirtualizedSelect };
+export {
+  Checkbox, DropZone, RadioGroup, Select, TextField, VirtualizedSelect,
+};

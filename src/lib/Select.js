@@ -1,7 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { FormControl, FormHelperText } from 'material-ui';
 import { XSelect } from 'xbrain-react-components';
+import FormControl from '@material-ui/core/FormControl';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import PropTypes from 'prop-types';
+import React from 'react';
 
 const SelectWithReduxForm = ({
   input: {
@@ -34,7 +35,11 @@ const SelectWithReduxForm = ({
         }}
         onBlur={() => onBlur(value)}
       />
-      {hasError && <FormHelperText className="x-error" error>{error}</FormHelperText>}
+      {hasError && (
+        <FormHelperText className="x-error" error>
+          {error}
+        </FormHelperText>
+      )}
     </FormControl>
   );
 };

@@ -1,6 +1,6 @@
 {
   "name": "xbrain-redux-form-material-ui",
-  "version": "1.2.2-beta.36",
+  "version": "2.0.0",
   "description": "An adapter between Redux Form and Material UI v1 components",
   "main": "dist/xbrain-redux-form-material-ui.min.js",
   "directories": {
@@ -24,11 +24,11 @@
   "author": "Diego Rodrigues Vieira",
   "license": "MIT",
   "dependencies": {
-    "material-ui": "^1.0.0-beta.47",
-    "prop-types": "^15.6.1",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "xbrain-react-components": "^1.1.40"
+    "@material-ui/core": "^1.3.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "xbrain-react-components": "^2.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -37,18 +37,18 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.12.0",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.9.1",
+    "eslint-plugin-react": "^7.10.0",
     "husky": "^0.14.3",
-    "jest": "^23.1.0",
-    "webpack": "^4.11.1",
-    "webpack-cli": "^3.0.3"
+    "jest": "^23.2.0",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
   },
   "peerDependencies": {
-    "material-ui": "^1.0.0-beta.35",
+    "@material-ui/core": "^1.3.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "xbrain-react-components": "^1.0.72"

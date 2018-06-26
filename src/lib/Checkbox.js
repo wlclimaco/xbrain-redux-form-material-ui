@@ -1,6 +1,6 @@
-import React from 'react';
+import Checkbox from '@material-ui/core/Checkbox';
 import PropTypes from 'prop-types';
-import { Checkbox } from 'material-ui';
+import React from 'react';
 
 const CheckboxWithReduxForm = ({ input: { onChange, value, ...inputProps }, meta, ...props }) => (
   <Checkbox

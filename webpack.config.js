@@ -9,13 +9,15 @@ const config = {
     libraryTarget: 'umd',
     library: 'XbrainReduxFormMaterialUi',
   },
-  externals: {
-    'material-ui': 'material-ui',
-    'prop-types': 'prop-types',
-    'react-dom': 'react-dom',
-    'xbrain-react-components': 'xbrain-react-components',
-    react: 'react',
-  },
+  externals: [
+    {
+      'prop-types': 'prop-types',
+      'react-dom': 'react-dom',
+      'xbrain-react-components': 'xbrain-react-components',
+      react: 'react',
+    },
+    /^@material-ui\/.+$/,
+  ],
   module: {
     rules: [
       {

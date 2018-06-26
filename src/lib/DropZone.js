@@ -1,5 +1,5 @@
-import { FormHelperText } from 'material-ui';
 import { XDropZone } from 'xbrain-react-components';
+import FormHelperText from '@material-ui/core/FormHelperText';
 import PropTypes from 'prop-types';
 import React, { Fragment } from 'react';
 
@@ -20,7 +20,11 @@ const DropZoneWithReduxForm = ({
         {...inputProps}
         {...props}
       />
-      {hasError && <FormHelperText className="x-error" error>{error}</FormHelperText>}
+      {hasError && (
+        <FormHelperText className="x-error" error>
+          {error}
+        </FormHelperText>
+      )}
     </Fragment>
   );
 };

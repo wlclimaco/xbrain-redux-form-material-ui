@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react';
-import PropTypes from 'prop-types';
-import { FormHelperText } from 'material-ui';
 import { XTextField } from 'xbrain-react-components';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import PropTypes from 'prop-types';
+import React, { Fragment } from 'react';
 
 const TextFieldWithReduxForm = ({ input, meta: { touched, error }, ...props }) => {
   const hasError = Boolean(touched && error);
