@@ -1,6 +1,6 @@
 {
   "name": "xbrain-redux-form-material-ui",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "An adapter between Redux Form and Material UI v1 components",
   "main": "dist/xbrain-redux-form-material-ui.min.js",
   "directories": {
@@ -29,7 +29,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "xbrain-react-components": "^2.0.12"
+    "xbrain-react-components": "^2.0.14"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
