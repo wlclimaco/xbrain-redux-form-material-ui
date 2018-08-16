@@ -8840,9 +8840,9 @@ ws@^4.0.0:
     async-limiter "~1.0.0"
     safe-buffer "~5.1.0"
 
-xbrain-react-components@^2.0.14:
-  version "2.0.14"
-  resolved "https://registry.yarnpkg.com/xbrain-react-components/-/xbrain-react-components-2.0.14.tgz#214939e4bafaa4b182c3d3b1b9079fab22c01223"
+xbrain-react-components@^2.0.15:
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/xbrain-react-components/-/xbrain-react-components-2.0.15.tgz#729a5fc009a426cf633aecbe0aef7f8e1286fb80"
   dependencies:
     "@material-ui/core" "^1.5.0"
     "@material-ui/icons" "^2.0.2"

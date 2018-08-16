@@ -29,7 +29,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "xbrain-react-components": "^2.0.14"
+    "xbrain-react-components": "^2.0.15"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
