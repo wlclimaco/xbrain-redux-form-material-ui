@@ -25,7 +25,7 @@ const ReactSelectWithReduxForm = ({
           return item;
         });
       } else {
-        newValue = '';
+        newValue = [];
       }
     }
   }
