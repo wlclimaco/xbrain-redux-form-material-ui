@@ -1,6 +1,6 @@
 {
   "name": "xbrain-redux-form-material-ui",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "description": "An adapter between Redux Form and Material UI v1 components",
   "main": "dist/xbrain-redux-form-material-ui.min.js",
   "directories": {
@@ -24,12 +24,12 @@
   "author": "Diego Rodrigues Vieira",
   "license": "MIT",
   "dependencies": {
-    "@material-ui/core": "3.0.1",
+    "@material-ui/core": "3.0.2",
     "@material-ui/icons": "3.0.1",
     "prop-types": "^15.6.2",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "xbrain-react-components": "2.0.16"
+    "react": "16.5.0",
+    "react-dom": "16.5.0",
+    "xbrain-react-components": "2.0.20"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
