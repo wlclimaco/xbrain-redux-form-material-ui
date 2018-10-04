@@ -1,6 +1,6 @@
 {
   "name": "xbrain-redux-form-material-ui",
-  "version": "2.0.17",
+  "version": "2.0.18",
   "description": "An adapter between Redux Form and Material UI v1 components",
   "main": "dist/xbrain-redux-form-material-ui.min.js",
   "directories": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "jest --notify --verbose",
-    "build": "webpack",
+    "build": "webpack --mode production",
     "lint": "eslint src",
     "precommit": "eslint src"
   },
@@ -24,34 +24,40 @@
   "author": "Diego Rodrigues Vieira",
   "license": "MIT",
   "dependencies": {
-    "@material-ui/core": "3.0.2",
+    "@material-ui/core": "3.1.2",
     "@material-ui/icons": "3.0.1",
-    "prop-types": "^15.6.2",
-    "react": "16.5.0",
-    "react-dom": "16.5.0",
-    "xbrain-react-components": "2.0.28"
+    "prop-types": "15.6.2",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "xbrain-react-components": "2.0.29"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "eslint": "^5.4.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.1",
-    "husky": "^0.14.3",
-    "jest": "^23.5.0",
-    "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
+    "@babel/core": "7.1.2",
+    "@babel/preset-env": "7.1.0",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "8.0.4",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-react-remove-prop-types": "0.4.18",
+    "eslint": "5.6.1",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.11.1",
+    "husky": "1.1.0",
+    "jest": "23.6.0",
+    "webpack": "4.20.2",
+    "webpack-cli": "3.1.2"
   },
   "peerDependencies": {
-    "@material-ui/core": "3.0.2",
-    "react": "16.5.0",
-    "react-dom": "16.5.0",
-    "xbrain-react-components": "2.0.28"
+    "@material-ui/core": "^3.1.2",
+    "@material-ui/icons": "^3.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "xbrain-react-components": "^2.0.29"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
   }
 }

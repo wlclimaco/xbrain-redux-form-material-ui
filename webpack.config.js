@@ -1,8 +1,7 @@
 const path = require('path');
 
 const config = {
-  mode: 'production',
-  entry: ['./src/index.js'],
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'xbrain-redux-form-material-ui.min.js',
@@ -25,9 +24,6 @@ const config = {
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
-          options: {
-            presets: ['env'],
-          },
         },
       },
     ],
