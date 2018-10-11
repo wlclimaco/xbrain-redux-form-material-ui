@@ -3209,10 +3209,10 @@ https-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-husky@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-1.1.1.tgz#7179043184f68a4d1ffc975cbd1c6132ef1fd7b3"
-  integrity sha512-D8ly8eIZdWzWVG4mh4apaX1PP47uLSaN8CS0RyuuLtHJ20Gt6Ccky5pSecaPsqxNzQj0zon3x6QX/0kCc5/TOQ==
+husky@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-1.1.2.tgz#574c2bb16958db8a8120b63306efaff110525c23"
+  integrity sha512-9TdkUpBeEOjz0AnFdUN4i3w8kEbOsVs9/WSeJqWLq2OO6bcKQhVW64Zi+pVd/AMRLpN3QTINb6ZXiELczvdmqQ==
   dependencies:
     cosmiconfig "^5.0.6"
     execa "^0.9.0"
@@ -6848,10 +6848,10 @@ ws@^5.2.0:
   dependencies:
     async-limiter "~1.0.0"
 
-xbrain-react-components@2.0.33:
-  version "2.0.33"
-  resolved "https://registry.yarnpkg.com/xbrain-react-components/-/xbrain-react-components-2.0.33.tgz#01d90126da04fdd9a1b49093df8eb9307c125dcd"
-  integrity sha512-/zF4cqELuxmG1+BT8kvsEeOsw2Y/a63JTsayKhktQ0pm+E9LVmYOxXnYN0Zr1S/sdRCCBWi8DLlYfSXxUgQpCw==
+xbrain-react-components@2.0.34:
+  version "2.0.34"
+  resolved "https://registry.yarnpkg.com/xbrain-react-components/-/xbrain-react-components-2.0.34.tgz#32c2cbd95a8a12952088439acd8f2e61036b4df3"
+  integrity sha512-DSgyvQzWLLr7FFONlL0y0Eo+Bw+8voWUFbUlUS/V7QzRafYIbnoI8Ybojm5RnXTWpaxBvCZtoxeet6mM8Gey5w==
   dependencies:
     "@material-ui/core" "3.2.0"
     "@material-ui/icons" "3.0.1"
