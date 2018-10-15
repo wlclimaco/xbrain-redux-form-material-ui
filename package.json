@@ -1,6 +1,6 @@
 {
   "name": "xbrain-redux-form-material-ui",
-  "version": "2.0.20",
+  "version": "2.0.21",
   "description": "An adapter between Redux Form and Material UI v1 components",
   "main": "dist/xbrain-redux-form-material-ui.min.js",
   "directories": {
@@ -24,12 +24,12 @@
   "author": "Diego Rodrigues Vieira",
   "license": "MIT",
   "dependencies": {
-    "@material-ui/core": "3.2.0",
+    "@material-ui/core": "3.2.1",
     "@material-ui/icons": "3.0.1",
     "prop-types": "15.6.2",
     "react": "16.5.2",
     "react-dom": "16.5.2",
-    "xbrain-react-components": "2.0.34"
+    "xbrain-react-components": "2.0.35"
   },
   "devDependencies": {
     "@babel/core": "7.1.2",
@@ -37,8 +37,8 @@
     "@babel/preset-react": "7.0.0",
     "babel-loader": "8.0.4",
     "babel-plugin-transform-class-properties": "6.24.1",
-    "babel-plugin-transform-react-remove-prop-types": "0.4.18",
-    "eslint": "5.6.1",
+    "babel-plugin-transform-react-remove-prop-types": "0.4.19",
+    "eslint": "5.7.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jsx-a11y": "6.1.2",
@@ -49,11 +49,11 @@
     "webpack-cli": "3.1.2"
   },
   "peerDependencies": {
-    "@material-ui/core": "^3.2.0",
+    "@material-ui/core": "^3.2.1",
     "@material-ui/icons": "^3.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "xbrain-react-components": "^2.0.33"
+    "xbrain-react-components": "^2.0.35"
   },
   "husky": {
     "hooks": {
