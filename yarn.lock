@@ -7118,10 +7118,10 @@ ws@^5.2.0:
   dependencies:
     async-limiter "~1.0.0"
 
-xbrain-react-components@2.0.44:
-  version "2.0.44"
-  resolved "https://registry.yarnpkg.com/xbrain-react-components/-/xbrain-react-components-2.0.44.tgz#b7c411c3a78c27ace1b176113a33097144b08ff6"
-  integrity sha512-UOFm9k9DcKXWQCG5r41uzoHfeMX6IM1EgUZehCQyExm6vOABqnobAcnU3vC1ziDjS8ME+w/LjbroVlXvzF7hZw==
+xbrain-react-components@2.0.45:
+  version "2.0.45"
+  resolved "https://registry.yarnpkg.com/xbrain-react-components/-/xbrain-react-components-2.0.45.tgz#375194db17ce71256c1d17e9c22f9d0b3046d719"
+  integrity sha512-iRzZaINzjsI9sUaaBo0rblwrUxVBlv9WmHEGEka3DDXfDG4XIwQ+QkHuEDFbk5ECxZUGzICJ0avmgoNqTe/mcw==
   dependencies:
     "@material-ui/core" "3.8.2"
     "@material-ui/icons" "3.0.2"
